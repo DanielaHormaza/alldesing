@@ -1,0 +1,93 @@
+@media (max-width: 840px) {
+  .map {
+    display: block;
+  }
+  .direction {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .sidebar {
+    width: 50%;
+  }
+}
+
+@media (max-width: 1050px) {
+  .map-iframe {
+    width: 90%;
+  }
+}
+@media (max-width: 500px) {
+  header {
+    height: 60px;
+  }
+  .conteiner-nav {
+    height: 60px;
+  }
+  h1 {
+    font-size: 15px;
+  }
+  .burguerIcon {
+    font-size: 30px;
+  }
+  .sidebar {
+    top: 60px;
+    font-size: 12px;
+    height: 69vh;
+    width: 100%;
+  }
+  .sidebar a {
+    height: 60px;
+    line-height: 50px;
+    font-size: 12px;
+  }
+
+  .social a i {
+    font-size: 15px;
+  }
+  footer {
+    font-size: 15px;
+  }
+  .carousel-inner {
+    height: 308px;
+  }
+  section {
+    scroll-margin-top: 65px;
+  }
+  .clientes-img img {
+    width: 230px;
+    height: 130px;
+    padding: 3px;
+  }
+}
+
+@media (max-height: 550px) {
+  .sidebar a {
+    height: 50px;
+    font-size: 12px;
+    line-height: 50px;
+  }
+
+  .sidebar {
+    height: 60vh;
+    top: 60px;
+  }
+  header {
+    height: 60px;
+  }
+  .conteiner-nav {
+    height: 60px;
+  }
+  h1 {
+    font-size: 15px;
+  }
+  h1:hover {
+    font-size: 16px;
+  }
+  .burguerIcon {
+    font-size: 30px;
+  }
+  .social a i {
+    font-size: 15px;
+  }
+}

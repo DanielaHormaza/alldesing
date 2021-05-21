@@ -1,0 +1,100 @@
+header {
+  box-shadow: 0 8px 6px 0 rgb(32 33 36 / 28%);
+  padding: 0;
+  height: 100px;
+  position: sticky;
+  top: 0;
+  background: rgba(44, 44, 44, 0.863);
+  z-index: 1;
+  transition: 0.3s;
+}
+
+.conteiner-nav {
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  height: 100px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+#btn-menu:checked + .sidebar {
+  left: 0;
+}
+#btn-menu:checked ~ .burguerIcon {
+  transform: rotate(90deg);
+  color: rgb(54, 171, 201);
+}
+
+.burguerIcon {
+  color: white;
+  user-select: none;
+  cursor: pointer;
+  transition: 0.3s;
+  position: relative;
+  float: left;
+  top: 0;
+  display: flex;
+  justify-content: left;
+  font-size: 50px;
+  margin-left: 10px;
+  margin: 0;
+}
+h1 {
+  color: white;
+  padding: 15px;
+  margin: 0;
+  font-size: 30px;
+  transition: 0.3s;
+}
+
+.social {
+  margin-right: 10px;
+}
+
+.social i:hover {
+  color: rgb(54, 171, 201);
+  font-size: 22px;
+}
+.social a i {
+  padding: 5px;
+  font-size: 20px;
+  color: white;
+  transition: 0.3s;
+}
+
+.sidebar {
+  background: rgba(44, 44, 44, 0.863);
+  height: 100vw;
+  position: fixed;
+  left: -100%;
+  top: 100px;
+  transition: 0.4s;
+  width: 30%;
+  z-index: 2; /*establecer cual esta sobre cual*/
+
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+}
+.sidebar a {
+  color: white;
+  text-decoration-line: none;
+  height: 85px;
+  display: block;
+  letter-spacing: 3px;
+  text-align: center;
+  line-height: 100px;
+  text-transform: uppercase;
+  transition: 0.3s;
+  z-index: 3;
+}
+.sidebar a:hover {
+  color: rgb(75, 201, 236);
+  background-color: rgba(160, 160, 160, 0.363);
+}
