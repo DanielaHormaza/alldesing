@@ -155,13 +155,13 @@ div#carouselExampleIndicators {
 
 .conteiner-img-team2 {
   height: 210px;
-  background-image: url(/img/team2.jpg);
+  background-image: url(/alldesing/img/team2.jpg);
   background-size: cover;
 }
 
 .conteiner-img-team3 {
   height: 210px;
-  background-image: url(/img/team3.jpg);
+  background-image: url(img/team3.jpg);
   background-size: cover;
 }
 
@@ -176,7 +176,7 @@ h1:hover {
 }
 
 #img-fondo {
-  background-image: url(/img/2.jpg);
+  background-image: url(main/img/2.jpg);
   padding: 8em 0;
   background-attachment: fixed;
   background-position: 50% -380.672px;
